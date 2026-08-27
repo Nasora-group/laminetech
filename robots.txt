@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nasora-group.github.io/laminetech/sitemap.xml
