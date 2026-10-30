@@ -54,7 +54,7 @@ input:focus,select:focus,textarea:focus{border-color:#C47A5A!important;box-shado
 body{background:#F6F2E9!important;color:#343A35;font-family:Arial,Helvetica,sans-serif}
 h1,h2,.logo{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.02em}
 .wrap{max-width:960px;padding:28px 20px 50px}.top{padding-bottom:15px;border-bottom:1px solid #E5DDD1}.logo{color:#294638!important;font-weight:700}.logo span{color:#B87355!important}.back{color:#315744!important}
-.box{background:#FBF9F4!important;border:1px solid #E5DDD1!important;border-radius:4px!important;box-shadow:none!important;animation:none!important;padding:34px}h1{color:#294638!important;font-weight:600}p{color:#706F68}
+.box{background:#FBF9F4!important;border:1px solid #E5DDD1!important;border-radius:4px!important;box-shadow:none!important;padding:34px}h1{color:#294638!important;font-weight:600}p{color:#706F68}
 .steps{gap:0;border-top:1px solid #E5DDD1;border-bottom:1px solid #E5DDD1}.step{background:transparent!important;border:0!important;border-right:1px solid #E5DDD1!important;border-radius:0!important;padding:16px 14px}.step:last-child{border-right:0!important}.step strong{color:#294638!important}
 .sticker,.sticker.cyan{background:#E5EBDD!important;color:#315744!important;box-shadow:none!important}label,legend{color:#294638!important}
 input,select,textarea{background:#fffefa!important;border:1px solid #D9D1C6!important;border-radius:4px!important;color:#343A35!important;box-shadow:none!important;transition:border-color .15s!important}
@@ -63,6 +63,12 @@ input:focus,select:focus,textarea:focus{border-color:#B87355!important;transform
 .outline{background:transparent!important;color:#315744!important;border-color:#315744!important}.trust{background:#EEE7DA!important;border:1px solid #E5DDD1!important;border-radius:4px!important}.trust strong{color:#294638!important}
 .success{background:#E5EBDD!important;color:#315744!important;border-radius:4px!important}.success p{color:#315744!important}.hint{background:#E5EBDD!important;border-color:#D4DFD0!important;color:#315744!important}.error{background:#F4E6DF!important;color:#8B4E3C!important;border-radius:4px!important}
 @media(max-width:650px){.box{padding:22px}.steps{grid-template-columns:1fr}.step{border-right:0!important;border-bottom:1px solid #E5DDD1!important}.step:last-child{border-bottom:0!important}}
+</style><style>
+.box{animation:enter .65s cubic-bezier(.2,.8,.2,1)}
+input,select,textarea{transition:border-color .2s,box-shadow .2s,transform .2s}
+.btn{transition:transform .25s ease,box-shadow .25s ease,background .25s ease}
+.btn:hover{transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){.box{animation:none}}
 </style></head>
 <body>
 <div class="wrap">
