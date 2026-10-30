@@ -1,12 +1,12 @@
 {
-  "name": "Lamine Technologie",
-  "short_name": "Lamine Tech",
+  "name": "AFRIVA SOLUTION",
+  "short_name": "AFRIVA",
   "description": "Solutions numériques, sites web, applications et logiciels métier au Sénégal.",
   "lang": "fr-SN",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "theme_color": "#075985",
+  "theme_color": "#123c35",
   "background_color": "#f8fafc",
   "icons": [
     {

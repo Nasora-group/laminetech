@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /docs/
 
-Sitemap: https://nasora-group.github.io/laminetech/sitemap.xml
+Sitemap: https://afriva-solution.onrender.com/sitemap.xml
