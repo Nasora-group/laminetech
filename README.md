@@ -36,4 +36,4 @@ Site statique HTML/CSS/JavaScript, prévu pour Render Static Site avec la racine
 
 Rufisque, Dakar, Sénégal  
 Téléphone : +221 77 754 59 06  
-Email : laminetechnologie@nasoracrm.site
+Email : thioubdou@gmail.com
