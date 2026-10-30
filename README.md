@@ -1,51 +1,39 @@
-# Lamine Technologie — Site officiel
+# AFRIVA SOLUTION — Site officiel
 
-Site vitrine de **Lamine Technologie**, spécialisé dans la conception de sites web, applications, logiciels métier/CRM et solutions informatiques sur mesure au Sénégal.
+Site vitrine d'**AFRIVA SOLUTION**, structure de services numériques basée à Rufisque, Sénégal.
 
-## Production
+## Services
 
-- `index.html` — accueil
-- `devis.html` — demande de devis
-- `404.html` — page d'erreur
-- `favicon.svg` — icône du site
-- `site.webmanifest` — configuration mobile
-- `robots.txt` — directives SEO
-- `sitemap.xml` — plan du site
-- `docs/` — documentation du projet
+- Création de sites web professionnels et responsive
+- Développement d'applications et logiciels métier
+- CRM, gestion et digitalisation des processus
+- Automatisation et accompagnement numérique
+- Maintenance et conseil informatique
 
 ## Parcours utilisateur
 
-**Accueil → Services / Réalisations → Devis → Email ou WhatsApp**
+**Accueil → Services / Réalisations → Demande de devis → Email ou WhatsApp**
 
-Les réalisations peuvent transmettre le service demandé à `devis.html` pour préremplir le formulaire.
+## Structure
 
-## SEO
+- `index.html` — accueil et présentation des services
+- `realisations.html` — portfolio et exemples de prestations
+- `devis.html` — formulaire de demande de devis
+- `404.html` — page d'erreur
+- `favicon.svg` — identité visuelle
+- `site.webmanifest` — configuration mobile
+- `robots.txt` et `sitemap.xml` — référencement
 
-Le site utilise des titres et descriptions uniques, URLs canoniques, Open Graph, Twitter Cards, données structurées Schema.org, `robots.txt`, `sitemap.xml` et une structure HTML5 sémantique.
+## Confidentialité
 
-## Accessibilité & responsive
-
-- navigation clavier et focus visibles ;
-- lien d'accès rapide au contenu ;
-- formulaires avec labels ;
-- affichage desktop, tablette et téléphone ;
-- prise en charge de `prefers-reduced-motion`.
-
-## Animations
-
-Les animations utilisent CSS et JavaScript natif, sans dépendance externe. Les effets de scroll, de profondeur et de survol restent désactivables lorsque l'utilisateur demande une réduction des mouvements.
-
-## Contact
-
-**Lamine Technologie**  
-Rufisque Arafat III, Sénégal  
-thioubdou@gmail.com  
-+221 77 754 59 06
+Les projets présentés sont décrits de manière générique. Les informations, données, accès et environnements des clients restent confidentiels. Les applications clientes sont hébergées et administrées séparément du site vitrine AFRIVA SOLUTION.
 
 ## Déploiement
 
-Le site est destiné à GitHub Pages :
+Site statique HTML/CSS/JavaScript, prévu pour Render Static Site avec la racine du dépôt comme répertoire publié.
 
-`https://nasora-group.github.io/laminetech/`
+## Contact
 
-Dernière mise à jour : août 2026.
+Rufisque, Dakar, Sénégal  
+Téléphone : +221 77 754 59 06  
+Email : laminetechnologie@nasoracrm.site
