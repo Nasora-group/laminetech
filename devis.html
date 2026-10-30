@@ -48,17 +48,32 @@ input:focus,select:focus,textarea:focus{border-color:#C47A5A!important;box-shado
 .error{background:#F8E9E2!important;color:#96563F!important}
 :focus-visible{outline-color:#C47A5A!important}
 </style>
-</head>
+<style>
+:root{--green:#315744;--rust:#B87355;--navy:#294638;--ink:#343A35;--muted:#706F68;--line:#E5DDD1}
+*,*::before,*:after{background-image:none!important;box-sizing:border-box}
+body{background:#F6F2E9!important;color:#343A35;font-family:Arial,Helvetica,sans-serif}
+h1,h2,.logo{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.02em}
+.wrap{max-width:960px;padding:28px 20px 50px}.top{padding-bottom:15px;border-bottom:1px solid #E5DDD1}.logo{color:#294638!important;font-weight:700}.logo span{color:#B87355!important}.back{color:#315744!important}
+.box{background:#FBF9F4!important;border:1px solid #E5DDD1!important;border-radius:4px!important;box-shadow:none!important;animation:none!important;padding:34px}h1{color:#294638!important;font-weight:600}p{color:#706F68}
+.steps{gap:0;border-top:1px solid #E5DDD1;border-bottom:1px solid #E5DDD1}.step{background:transparent!important;border:0!important;border-right:1px solid #E5DDD1!important;border-radius:0!important;padding:16px 14px}.step:last-child{border-right:0!important}.step strong{color:#294638!important}
+.sticker,.sticker.cyan{background:#E5EBDD!important;color:#315744!important;box-shadow:none!important}label,legend{color:#294638!important}
+input,select,textarea{background:#fffefa!important;border:1px solid #D9D1C6!important;border-radius:4px!important;color:#343A35!important;box-shadow:none!important;transition:border-color .15s!important}
+input:focus,select:focus,textarea:focus{border-color:#B87355!important;transform:none!important;box-shadow:0 0 0 2px #B8735520!important}
+.budget label{background:#F1ECE3!important;border:1px solid #E5DDD1!important;border-radius:4px!important}.btn{background:#315744!important;color:#fff!important;border-radius:6px!important;box-shadow:none!important}.btn:hover{transform:none!important;background:#294638!important}
+.outline{background:transparent!important;color:#315744!important;border-color:#315744!important}.trust{background:#EEE7DA!important;border:1px solid #E5DDD1!important;border-radius:4px!important}.trust strong{color:#294638!important}
+.success{background:#E5EBDD!important;color:#315744!important;border-radius:4px!important}.success p{color:#315744!important}.hint{background:#E5EBDD!important;border-color:#D4DFD0!important;color:#315744!important}.error{background:#F4E6DF!important;color:#8B4E3C!important;border-radius:4px!important}
+@media(max-width:650px){.box{padding:22px}.steps{grid-template-columns:1fr}.step{border-right:0!important;border-bottom:1px solid #E5DDD1!important}.step:last-child{border-bottom:0!important}}
+</style></head>
 <body>
 <div class="wrap">
 <div class="top"><a class="logo" href="index.html" aria-label="AFRIVA SOLUTION, accueil">AFRIVA<span>SOLUTION</span></a><a class="back" href="index.html">Retour au site</a></div>
 <main class="box">
 <h1>Parlons de votre projet</h1>
-<p class="intro">Quelques informations suffisent pour comprendre votre besoin et vous orienter rapidement vers la bonne solution.</p>
+<p class="intro">Parlez-nous de votre activité et de ce que vous souhaitez mettre en place. Si certains détails ne sont pas encore définis, indiquez simplement ce que vous savez.</p>
 <div class="steps" aria-label="Étapes de la demande">
-<div class="step"><div class="stepIcon"><span class="sticker cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"/><path d="M15 3v4h4M9 12h6M9 16h6"/></svg></span><strong>1. Votre besoin</strong></div>Décrivez votre projet.</div>
-<div class="step"><div class="stepIcon"><span class="sticker cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg></span><strong>2. Notre analyse</strong></div>Nous étudions votre demande.</div>
-<div class="step"><div class="stepIcon"><span class="sticker cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 5h14v11H8l-3 3z"/><path d="M8 9h8M8 12h5"/></svg></span><strong>3. Échange</strong></div>Nous revenons vers vous.</div>
+<div class="step"><div class="stepIcon"><span class="sticker cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"/><path d="M15 3v4h4M9 12h6M9 16h6"/></svg></span><strong>Votre besoin</strong></div>Dites-nous ce que vous cherchez.</div>
+<div class="step"><div class="stepIcon"><span class="sticker cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg></span><strong>Notre retour</strong></div>Nous prenons connaissance de votre message.</div>
+<div class="step"><div class="stepIcon"><span class="sticker cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 5h14v11H8l-3 3z"/><path d="M8 9h8M8 12h5"/></svg></span><strong>La suite</strong></div>Nous échangeons sur les prochaines étapes.</div>
 </div>
 <p class="hint" id="serviceHint" role="status"></p>
 <form id="quote" action="https://formsubmit.co/thioubdou@gmail.com" method="POST">
